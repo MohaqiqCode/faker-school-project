@@ -1,0 +1,19 @@
+{
+  "name": "afghan-school/data-generator",
+  "description": "Complete data generation for Afghan School Management System - Data Warehouse Project",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "fakerphp/faker": "^1.23",
+    "vlucas/phpdotenv": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "optimize-autoloader": true
+  }
+}

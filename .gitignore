@@ -1,0 +1,22 @@
+# Local environment variables and credentials
+/.env
+/.env.*
+!/.env.example
+
+# Composer dependencies
+/vendor/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Database exports and backups
+*.sql
+*.sql.gz
+*.dump
+/backups/
+
+# Operating system files
+.DS_Store
+Thumbs.db
